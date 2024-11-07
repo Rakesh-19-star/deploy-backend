@@ -1,0 +1,14 @@
+
+GET  http://localhost:3000/USER/
+###
+
+POST http://localhost:3000/USER/
+Content-Type: application/json
+
+{
+    "name": "ram",
+    "age": 25
+}
+
+###
+GET http://localhost:3000/api/services
